@@ -14,7 +14,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200*"/>
-            <ColumnDefinition Width="829*" />
+            <ColumnDefinition Width="829*"/>
         </Grid.ColumnDefinitions>
         <StackPanel  Grid.Column="0" Background="Gray">
             <Label Content="Kategoria" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
@@ -22,6 +22,16 @@
             <Label Content="Symulacji" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
             <Label Content="Dzialania" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
         </StackPanel>
-        <Button Content="Button"  HorizontalAlignment="Left" Margin="174,197,0,0" VerticalAlignment="Top" Width="279"/>
-       </Grid>
+        <StackPanel Grid.Column="1" Background="LightSlateGray">
+            <RichTextBox Height="447" Background="LightGray">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBox Background="Black" Foreground="White" Height="41" Width="567" Margin="0,0,100,0"/>
+            <Button Content="Send" Width="110" Height="40" Margin="540,-40,0,0" Background="DimGray" Click="Send_OnClick"/>
+        </StackPanel>
+    </Grid>
 </Window>

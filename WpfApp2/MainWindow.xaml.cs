@@ -24,5 +24,8 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+        private void Send_OnClick(object sender, RoutedEventArgs e) {
+            
+        }
     }
 }

@@ -140,3 +140,7 @@ D:\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
 D:\WpfApp2\WpfApp2\obj\Debug\WpfApp2.GeneratedMSBuildEditorConfig.editorconfig
 D:\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
 D:\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\Avalonia\Resources.Inputs.cache
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.pdb
