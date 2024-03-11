@@ -23,14 +23,14 @@
             <Label Content="Dzialania" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Background="LightSlateGray">
-            <RichTextBox Height="447" Background="LightGray">
+            <RichTextBox Height="447" Background="LightGray" x:Name="result">
                 <FlowDocument>
                     <Paragraph>
                         <Run Text=""/>
                     </Paragraph>
                 </FlowDocument>
             </RichTextBox>
-            <TextBox Background="Black" Foreground="White" Height="41" Width="567" Margin="0,0,100,0"/>
+            <TextBox x:Name="cmd"  Background="Black" Foreground="White" Height="41" Width="567" Margin="0,0,100,0"/>
             <Button Content="Send" Width="110" Height="40" Margin="540,-40,0,0" Background="DimGray" Click="Send_OnClick"/>
         </StackPanel>
     </Grid>

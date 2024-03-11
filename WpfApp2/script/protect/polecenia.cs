@@ -14,7 +14,7 @@ namespace Protect_yourself.script.protect
         {
             command = "Robak to program replikujący się w celu rozprzestrzeniania się z jednego komputera na drugi. \nJednak w przeciwieństwie do wirusa nie dołącza się on do innych programów lub plików na komputerze.\n Zamiast tego przemierza Internet w poszukiwaniu podatnych na ataki komputerów, instaluje się na nich i replikuje. \r\n\r\nRobaki zwykle powodują więcej szkód niż wirusy, ponieważ szybko i łatwo się rozmnażają.";
         }
-        public void kacker()
+        public void hacker()
         {
             command = "Hacker - Osoba o bardzo dużych, praktycznych umiejętnościach informatycznych (lub elektronicznych), która identyfikuje się ze społecznością hakerską. Hakerzy odznaczają się bardzo dobrą orientacją w Internecie, znajomością wielu języków programowania, a także świetną znajomością systemów operacyjnych, głównie tych z rodziny Unix i pochodnych (BSD, GNU/Linux itp.).";
         }
@@ -67,7 +67,7 @@ namespace Protect_yourself.script.protect
         {
             command = "Oprogramowanie zaprojektowane do dostarczania reklam na komputerze lub urządzeniu mobilnym bez wiedzy lub zgody użytkownika.\n Adware nie ma nic wspólnego z sieciami reklamowymi, takimi jak Google AdSensebut raczej aplikacje\n, które mogą wyświetlać reklamy bez uprzedniego powiadomienia użytkownika, czasami nawet zmieniając ustawienia przeglądarki bez uprzedniego zapytania!";
         }
-        public void cyberbezpieczeństwo()
+        public void cyberbezpieczenstwo()
         {
             command  = "Cyberbezpieczeństwo jest pojęciem uwzględniającym nie tylko zabezpieczenia technologiczne takie jak program do monitorowania komputera czy znane większości osób antywirusy. \n Oznacza również szereg praktyk, technik i procesów, których celem jest ochrona danych, infrastruktury informatycznej oraz urządzeń \n przed atakiem cyberprzestępców i nieautoryzowanym dostępem (np. pracownika, który próbuje wykraść dane na rzecz konkurencji). Cyberbezpieczeństwo obejmuje również \n rzetelną edukację zespołu z zakresu bezpieczeństwa IT. Ze względu na powszechne ryzyko ataków w sieci, konieczna jest długofalowa ochrona, konsekwentne wdrażanie nowych\n rozwiązań oraz znajomość podstawowych pojęć. Między innymi dlatego opracowaliśmy słownik cyberbezpieczeństwa.";
         }
