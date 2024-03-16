@@ -211,3 +211,5 @@ C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.csproj.
 C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
 C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\Game.g.cs
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\Game.baml

@@ -155,12 +155,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Game.xaml.cs">
+      <DependentUpon>Game.xaml</DependentUpon>
+    </Compile>
     <Compile Include="script\cursor\change_cursor.cs" />
     <Compile Include="script\Other.cs" />
     <Compile Include="script\protect\polecenia.cs" />
     <Compile Include="script\simulated\protect\boost\health.cs" />
     <Compile Include="script\simulated\protect\Check Password.cs" />
     <Compile Include="script\simulated\protect\szyfrowanie.cs" />
+    <Page Include="Game.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

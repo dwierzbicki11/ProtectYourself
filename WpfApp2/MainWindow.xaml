@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="800"
+        Title="MainWindow" Height="526" Width="810"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         Background="{DynamicResource MaterialDesignPaper}"
         TextElement.FontWeight="Medium"
@@ -21,9 +21,10 @@
             <Label Content="Do " HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
             <Label Content="Symulacji" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
             <Label Content="Dzialania" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
+            <!--Button x:Name="playGame" Content="Graj w grę" Click="PlayGame_OnClick" Margin="0,0,0,-200"/-->
         </StackPanel>
         <StackPanel Grid.Column="1" Background="LightSlateGray">
-            <RichTextBox Height="447" Background="LightGray" x:Name="result">
+            <RichTextBox Height="447" Background="DarkSlateGray" x:Name="result">
                 <FlowDocument>
                     <Paragraph>
                         <Run Text=""/>

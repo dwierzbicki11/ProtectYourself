@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\WpfApp2\WpfApp2\obj\Debug\
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\obj\Debug\
 WpfApp2
 none
 false
 DEBUG;TRACE
-D:\WpfApp2\WpfApp2\App.xaml
-1219584333
+C:\Users\janus\Desktop\protApp\ProtectYourself\WpfApp2\App.xaml
+2794650877
 
-121210851554
-146-1547817529
-MainWindow.xaml;
+13919538270
+146-541231053
+Game.xaml;MainWindow.xaml;
 
-False
+True
 
