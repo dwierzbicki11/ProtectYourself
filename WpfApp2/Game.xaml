@@ -4,24 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Game" Height="600" Width="400">
+        Title="Game" Height="600" Width="400"
+        TextElement.FontFamily="{DynamicResource MaterialDesignFont}">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="140" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
+            <RowDefinition Height="136" />
+            <RowDefinition Height="101" />
+            <RowDefinition Height="63" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="174"/>
+            <ColumnDefinition Width="82"/>
+            <ColumnDefinition Width="64"/>
         </Grid.ColumnDefinitions>
-        <TextBox Grid.Row="2" Grid.ColumnSpan="3" x:Name="hasloWhashu" Text="Ala ma kota" FontSize="40"/>
-        <Button Grid.Column="1" Grid.Row="3"/>
+        <TextBox FontFamily="{DynamicResource MaterialDesignFont }" Grid.Row="2" Grid.ColumnSpan="3" x:Name="hasloWhashu" Text="Ala ma kota" FontSize="40"/>
+        <Button Grid.Column="1" Grid.Row="3" Margin="0,53,0,51"/>
     </Grid>
 </Window>
