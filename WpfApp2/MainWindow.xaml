@@ -21,7 +21,7 @@
             <Label Content="Do " HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
             <Label Content="Symulacji" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
             <Label Content="Dzialania" HorizontalAlignment="Center" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"/>
-            <!--Button x:Name="playGame" Content="Graj w grę" Click="PlayGame_OnClick" Margin="0,0,0,-200"/-->
+            <Button x:Name="playGame" Content="Zaszyfruj wiadomość" Click="PlayGame_OnClick" Margin="0,0,0,-200"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Background="LightSlateGray">
             <RichTextBox Height="447" Background="DarkSlateGray" x:Name="result">

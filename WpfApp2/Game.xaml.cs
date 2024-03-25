@@ -23,5 +23,20 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+
+        private void szyfuj(object sender, RoutedEventArgs e)
+        {
+            int klucz = Convert.ToInt32(key.Text);
+            string msg= hasloDoHashu.Text;
+            output.Content = encrypt(msg,klucz);
+        }
+        string encrypt(string msg,int key) {
+            string encMSG ="";
+            for (int i = 0; i < msg.Length; i++) {
+                 var znak = msg[i] + key;
+                  encMSG += znak;
+            }
+            return encMSG;
+        }
     }
 }

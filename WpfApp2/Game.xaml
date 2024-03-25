@@ -7,23 +7,15 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="Game" Height="600" Width="400"
-        TextElement.FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="Comic Sans MS">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="60" />
-            <RowDefinition Height="140" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="136" />
-            <RowDefinition Height="101" />
-            <RowDefinition Height="63" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="174"/>
-            <ColumnDefinition Width="82"/>
-            <ColumnDefinition Width="64"/>
-        </Grid.ColumnDefinitions>
-        <TextBox FontFamily="{DynamicResource MaterialDesignFont }" Grid.Row="2" Grid.ColumnSpan="3" x:Name="hasloWhashu" Text="Ala ma kota" FontSize="40"/>
-        <Button Grid.Column="1" Grid.Row="3" Margin="0,53,0,51"/>
+        <Label Content="Podaj tekst" FontSize="30" Margin="10,82,115,428" RenderTransformOrigin="0.352,1.618"/>
+        <TextBox x:Name="hasloDoHashu" FontSize="40" Margin="190,76,10,448"/>
+        <Label Content="Podaj klucz" FontSize="30" Margin="10,156,115,354" RenderTransformOrigin="0.352,1.618"/>
+
+        <Button Content="Szyfuj" FontSize="50" HorizontalAlignment="Left" Margin="52,292,0,0" VerticalAlignment="Top" Height="80" Width="255" Click="szyfuj"/>
+        <TextBox x:Name="key" FontSize="40" HorizontalAlignment="Left" Margin="185,138,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="200"/>
+        <Label FontSize="29" x:Name="output" HorizontalAlignment="Left" Margin="148,425,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

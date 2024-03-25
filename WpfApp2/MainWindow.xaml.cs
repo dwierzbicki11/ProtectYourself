@@ -15,7 +15,8 @@ namespace WpfApp2
             InitializeComponent();
         }
         void PlayGame_OnClick(object sender, RoutedEventArgs e) { 
-            
+            var game = new Game();
+            game.Show();
         }
         private void Send_OnClick(object sender, RoutedEventArgs e) {
             string dana = cmd.Text.ToLower();
