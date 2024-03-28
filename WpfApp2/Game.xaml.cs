@@ -33,7 +33,7 @@ namespace WpfApp2
         string encrypt(string msg,int key) {
             string encMSG ="";
             for (int i = 0; i < msg.Length; i++) {
-                 var znak = msg[i] + key;
+                  char znak = Convert.ToChar(msg[i] + key);
                   encMSG += znak;
             }
             return encMSG;
