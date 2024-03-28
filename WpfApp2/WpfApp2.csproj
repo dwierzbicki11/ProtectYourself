@@ -189,6 +189,9 @@
     <Compile Include="Game.xaml.cs">
       <DependentUpon>Game.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GameReal.xaml.cs">
+      <DependentUpon>GameReal.xaml</DependentUpon>
+    </Compile>
     <Compile Include="script\cursor\change_cursor.cs" />
     <Compile Include="script\Other.cs" />
     <Compile Include="script\protect\polecenia.cs" />
@@ -196,6 +199,10 @@
     <Compile Include="script\simulated\protect\Check Password.cs" />
     <Compile Include="script\simulated\protect\szyfrowanie.cs" />
     <Page Include="Game.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameReal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

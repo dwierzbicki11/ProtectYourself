@@ -19,7 +19,10 @@ namespace WpfApp2
             var game = new Game();
             game.Show();
         }
-        void playRealGame_OnClick(object sender, RoutedEventArgs e) { }
+        void playRealGame_OnClick(object sender, RoutedEventArgs e) {
+            var win = new GameReal();
+           win.Show();
+        }
         private void Send_OnClick(object sender, RoutedEventArgs e) {
             var engine = new SpeechSynthesizer();
             engine.Volume = 100;
