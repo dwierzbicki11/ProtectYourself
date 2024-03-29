@@ -3,10 +3,24 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="GameReal" Height="526" Width="810">
+        Title="GameReal" Height="526" Width="310"
+        Background="DimGray" >
     <Grid>
-        
+        <Label x:Name="virus" Content="0" HorizontalAlignment="Left" Margin="211,20,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
+        <Label x:Name="trojan" Content="0" HorizontalAlignment="Left" Margin="211,56,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
+        <Label x:Name="ransomware" Content="0" HorizontalAlignment="Left" Margin="211,97,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
+        <Label x:Name="error" Content="0" HorizontalAlignment="Left" Margin="213,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
+
+        <Label Content="Ilość wirusów" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="146"/>
+        <Label Content="Ilość trojanów" HorizontalAlignment="Left" Margin="67,56,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="144"/>
+        <Label Content="Ilość ransomware" HorizontalAlignment="Left" Margin="44,97,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="166"/>
+        <Label Content="Ilość zagrożeń" HorizontalAlignment="Left" Margin="68,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="142"/>
+        <Button x:Name="updates" IsEnabled="False"  Content="Zaktualizuj antywirusa" HorizontalAlignment="Left" Margin="74,223,0,0" VerticalAlignment="Top" Click="updates_Click"/>
+        <Button Content="Sklep" HorizontalAlignment="Left" Margin="26,317,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="liczbaZagrozen"  Content="Label" HorizontalAlignment="Left" Margin="177,179,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
