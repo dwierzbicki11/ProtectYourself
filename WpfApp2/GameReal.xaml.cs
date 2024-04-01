@@ -25,7 +25,7 @@ namespace WpfApp2
         Random rnd = new Random();
 
         //Integers
-        public int prog = 30;
+        public int prog = 10;
         public int iloscVirus { get; set; } = 0;
         public int iloscTrojan { get; set; } = 0;
         public int iloscRansomware { get; set; } = 0;
@@ -71,7 +71,7 @@ namespace WpfApp2
             timerErrors.Start();
 
             timerUpdate = new DispatcherTimer();
-            timerUpdate.Interval = TimeSpan.FromSeconds(Protected.WaitForSecond());
+            timerUpdate.Interval = TimeSpan.FromSeconds(0.1);
             timerUpdate.Tick += TimerUpdate_Tick;
             timerUpdate.Start();
 
@@ -106,13 +106,11 @@ namespace WpfApp2
         }
         private void Timer5_Tick(object sender, EventArgs e)
         {
-            int errors = Convert.ToInt32(virus.Content) + Convert.ToInt32(trojan.Content) + Convert.ToInt32(ransomware.Content) + Convert.ToInt32(error.Content);
+            errors = Convert.ToInt32(virus.Content) + Convert.ToInt32(trojan.Content) + Convert.ToInt32(ransomware.Content) + Convert.ToInt32(error.Content);
             liczbaZagrozen.Content = errors.ToString();
         }
         
         private void Update() {
-            
-            
             if (errors > prog)
             {
                 updates.IsEnabled = true;
@@ -148,10 +146,10 @@ namespace WpfApp2
         {
             ileRazyUpdate++;
             gold+=rnd.Next(1,5);
-            iloscErrors-=4;
-            iloscRansomware-=5;
-            iloscTrojan-=6;
-            iloscVirus-=10;
+            iloscErrors-= (int)(iloscErrors * 0.8);
+            iloscRansomware-= (int)(iloscRansomware * 0.8);
+            iloscTrojan-= (int)(iloscTrojan * 0.8);
+            iloscVirus-=(int)(iloscVirus*0.8);
             if (iloscVirus < 0) iloscVirus = 0;
             if (iloscTrojan < 0) iloscTrojan = 0;
             if (iloscRansomware < 0) iloscRansomware = 0;
