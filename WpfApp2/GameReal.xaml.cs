@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Timers;
 using System.Windows;
+using WpfApp2.script.simulated.protect.boost;
 
 namespace WpfApp2
 {
@@ -32,31 +33,31 @@ namespace WpfApp2
         public GameReal()
         {
             InitializeComponent();
-            timeVirus = rnd.Next(1, 3);
+            timeVirus = Protected.slowDownVirusTime();
             timerVirus = new Timer(timeVirus * 1000);
             timerVirus.Elapsed += TimerVirus_Elapsed;
             timerVirus.AutoReset = true;
             timerVirus.Start();
 
-            timeTrojan = rnd.Next(1, 5);
+            timeTrojan = Protected.slowDownTrojanTime();
             timerTrojan = new Timer(timeTrojan * 1000);
             timerTrojan.Elapsed += TimerTrojan_Elapsed;
             timerTrojan.AutoReset = true;
             timerTrojan.Start();
 
-            timeRansomware = rnd.Next(3, 8);
+            timeRansomware = Protected.slowDownRansomwareTime();
             timerRansomware = new Timer(timeRansomware * 1000);
             timerRansomware.Elapsed += TimerRansomware_Elapsed;
             timerRansomware.AutoReset = true;
             timerRansomware.Start();
 
-            timeErrors = rnd.Next(1, 3);
+            timeErrors = Protected.slowDownErrorsTime();
             timerErrors = new Timer(timeErrors * 1000);
             timerErrors.Elapsed += TimerErrors_Elapsed;
             timerErrors.AutoReset = true;
             timerErrors.Start();
 
-            timerUpdate = new Timer(100); // 0.1 sekundy w milisekundach
+            timerUpdate = new Timer(Protected.WaitForSecond());
             timerUpdate.Elapsed += TimerUpdate_Elapsed;
             timerUpdate.Start();
 
@@ -117,7 +118,6 @@ namespace WpfApp2
             else
             {
                 updates.IsEnabled = false; // Ustaw przycisk na nieaktywny
-                prog = rnd.Next(10, 31);
             }
         }
 
@@ -150,7 +150,9 @@ namespace WpfApp2
         private void updates_Click(object sender, RoutedEventArgs e)
         {
             ileRazyUpdate++;
+            prog = rnd.Next(5, 15);
             gold += rnd.Next(1, 5);
+            ileZlota.Content = gold;
             iloscErrors -= (int)(iloscErrors * 0.8);
             iloscRansomware -= (int)(iloscRansomware * 0.8);
             iloscTrojan -= (int)(iloscTrojan * 0.8);

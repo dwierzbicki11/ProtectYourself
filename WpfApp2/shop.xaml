@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="shop" Height="300" Width="300">
     <Grid>
-        <ListBox x:Name="lista" SelectionChanged="lista_SelectionChanged"/>
+        <ListBox x:Name="lista" MouseLeftButtonUp="lista_MouseLeftButtonUp"/>
 
     </Grid>
 </Window>

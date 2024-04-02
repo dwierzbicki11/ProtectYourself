@@ -20,7 +20,12 @@
         <Label Content="Ilość zagrożeń" HorizontalAlignment="Left" Margin="68,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="142"/>
         <Button x:Name="updates" IsEnabled="False"  Content="Zaktualizuj antywirusa" HorizontalAlignment="Left" Margin="74,223,0,0" VerticalAlignment="Top" Click="updates_Click"/>
         <Button Content="Sklep" HorizontalAlignment="Left" Margin="26,317,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Image HorizontalAlignment="Left" Height="69" Margin="26,379,0,0" VerticalAlignment="Top" Width="77" Source="https://www.dgamesapp.free.nf/serverfiles/upload/gold.png"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="213,294,0,0" VerticalAlignment="Top" Width="77" Source="/image/gold.png"/>
+        <Label x:Name="ileZlota"  Content="" HorizontalAlignment="Left" Margin="186,317,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="czasVirus"  Content="a" HorizontalAlignment="Left" Margin="186,355,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="czasTrojan"  Content="a" HorizontalAlignment="Left" Margin="186,379,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="czasRansomware"  Content="a" HorizontalAlignment="Left" Margin="186,403,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="czasError"  Content="a" HorizontalAlignment="Left" Margin="186,427,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
