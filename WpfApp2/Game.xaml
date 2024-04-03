@@ -10,12 +10,12 @@
         FontFamily="Comic Sans MS">
     <Grid>
         <Label Content="Podaj tekst" FontSize="30" Margin="10,82,115,428" RenderTransformOrigin="0.352,1.618"/>
-        <TextBox x:Name="hasloDoHashu" FontSize="40" Margin="190,76,10,448"/>
+        <TextBox x:Name="hasloDoHashu" FontSize="20" Margin="190,76,10,448"/>
         <Label Content="Podaj klucz" FontSize="30" Margin="10,156,115,354" RenderTransformOrigin="0.352,1.618"/>
 
         <Button Content="Szyfuj" FontSize="50" HorizontalAlignment="Left" Margin="52,292,0,0" VerticalAlignment="Top" Height="80" Width="255" Click="szyfuj"/>
-        <TextBox x:Name="key" FontSize="40" HorizontalAlignment="Left" Margin="185,138,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="200"/>
-        <Label FontSize="29" x:Name="output" HorizontalAlignment="Left" Margin="148,425,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="key" FontSize="20" HorizontalAlignment="Left" Margin="180,161,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="200"/>
+        <Label FontSize="29" x:Name="output" HorizontalAlignment="Left" Margin="10,420,0,0" VerticalAlignment="Top" Height="45" Width="auto"/>
 
     </Grid>
 </Window>
