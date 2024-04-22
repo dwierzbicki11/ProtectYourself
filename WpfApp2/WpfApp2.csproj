@@ -236,9 +236,6 @@
     <Compile Include="script\simulated\protect\boost\Protected.cs" />
     <Compile Include="script\simulated\protect\Check Password.cs" />
     <Compile Include="script\simulated\protect\szyfrowanie.cs" />
-    <Compile Include="shop.xaml.cs">
-      <DependentUpon>shop.xaml</DependentUpon>
-    </Compile>
     <Page Include="Game.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -259,10 +256,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="shop.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

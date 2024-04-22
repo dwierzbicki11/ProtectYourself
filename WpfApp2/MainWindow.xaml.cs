@@ -5,9 +5,6 @@ using System.Speech.Synthesis;
 
 namespace WpfApp2
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         polecenia polecenia = new polecenia();

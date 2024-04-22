@@ -12,20 +12,28 @@
         <Label x:Name="virus" Content="0" HorizontalAlignment="Left" Margin="211,20,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
         <Label x:Name="trojan" Content="0" HorizontalAlignment="Left" Margin="211,56,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
         <Label x:Name="ransomware" Content="0" HorizontalAlignment="Left" Margin="211,97,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
-        <Label x:Name="error" Content="0" HorizontalAlignment="Left" Margin="213,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71"/>
+        <Label x:Name="error" HorizontalAlignment="Left" Margin="213,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="71">
+        </Label>
 
         <Label Content="Ilość wirusów" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="146"/>
         <Label Content="Ilość trojanów" HorizontalAlignment="Left" Margin="67,56,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="144"/>
         <Label Content="Ilość ransomware" HorizontalAlignment="Left" Margin="44,97,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="166"/>
         <Label Content="Ilość zagrożeń" HorizontalAlignment="Left" Margin="68,138,0,0" VerticalAlignment="Top" FontSize="20" Height="36" Width="142"/>
         <Button x:Name="updates" IsEnabled="False"  Content="Zaktualizuj antywirusa" HorizontalAlignment="Left" Margin="74,223,0,0" VerticalAlignment="Top" Click="updates_Click"/>
-        <Button Content="Sklep" HorizontalAlignment="Left" Margin="26,317,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Image HorizontalAlignment="Left" Height="69" Margin="213,294,0,0" VerticalAlignment="Top" Width="77" Source="/image/gold.png"/>
         <Label x:Name="ileZlota"  Content="" HorizontalAlignment="Left" Margin="186,317,0,0" VerticalAlignment="Top"/>
         <Label x:Name="czasVirus"  Content="a" HorizontalAlignment="Left" Margin="186,355,0,0" VerticalAlignment="Top"/>
         <Label x:Name="czasTrojan"  Content="a" HorizontalAlignment="Left" Margin="186,379,0,0" VerticalAlignment="Top"/>
         <Label x:Name="czasRansomware"  Content="a" HorizontalAlignment="Left" Margin="186,403,0,0" VerticalAlignment="Top"/>
         <Label x:Name="czasError"  Content="a" HorizontalAlignment="Left" Margin="186,427,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lista" Margin="0,260,129,0" Background="SlateGray"  ListBoxItem.Selected="lista_Selected">
+            <ListBoxItem>Slow Down Wirus15</ListBoxItem>
+            <ListBoxItem>Slow Down Trojan28</ListBoxItem>
+            <ListBoxItem>Slow Down Ransomware40</ListBoxItem>
+            <ListBoxItem>Slow Down Errors100</ListBoxItem>
+            <ListBoxItem>FireWall150</ListBoxItem>
+            <ListBoxItem>Speed Updates300</ListBoxItem>
+        </ListBox>
 
     </Grid>
 </Window>

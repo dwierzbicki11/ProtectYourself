@@ -38,7 +38,7 @@ namespace WpfApp2
             
         }
 
-        private void lista_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void lista_Selected(object sender, RoutedEventArgs e)
         {
             string selectedItem = lista.SelectedItem.ToString();
             string[] item = selectedItem.Split(' ');

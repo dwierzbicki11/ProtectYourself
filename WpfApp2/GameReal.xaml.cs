@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Timers;
 using System.Windows;
 using WpfApp2.script.simulated.protect.boost;
@@ -7,6 +8,10 @@ namespace WpfApp2
 {
     public partial class GameReal : Window
     {
+
+        //listy
+        List<string> listaRzeczy = new List<string>();
+
         // Timers
         private Timer timerVirus;
         private Timer timerTrojan;
@@ -28,6 +33,7 @@ namespace WpfApp2
         public int gold { get; set; } = 0;
         public int timeVirus, timeTrojan, timeRansomware, timeErrors;
         private int errors;
+
 
         // Konstruktor
         public GameReal()
@@ -109,6 +115,10 @@ namespace WpfApp2
 
         private void Aktualizuj()
         {
+            czasError.Content = timeErrors;
+            czasRansomware.Content = timeRansomware;
+            czasTrojan.Content = timeTrojan;
+            czasVirus.Content = timeVirus;
             errors = iloscVirus + iloscTrojan + iloscRansomware + iloscErrors;
 
             if (prog < errors)
@@ -134,6 +144,54 @@ namespace WpfApp2
             trojan.Content = iloscTrojan;
         }
 
+        private void shop()
+        {
+            string selectedItem = lista.SelectedItem.ToString();
+            string[] item = selectedItem.Split(' ');
+            int itemPrice;
+            if (item.Length >= 1 && int.TryParse(item[1], out itemPrice))
+            {
+                if (gold < Convert.ToInt32(item[1]))
+                {
+                    switch (item[0])
+                    {
+                        case "Slow Down Wirus":
+                            timeVirus = Protected.slowDownVirusTime();
+                            gold -= Convert.ToInt32(item[1]);
+                            break;
+                        case "Slow Down Trojan":
+                            timeTrojan = Protected.slowDownTrojanTime();
+                            gold -= Convert.ToInt32(item[1]);
+                            break;
+                        case "Slow Down Ransomware":
+                            timeRansomware = Protected.slowDownRansomwareTime();
+                            gold -= Convert.ToInt32(item[1]);
+                            break;
+                        case "Slow Down Errors":
+                            timeErrors = Protected.slowDownErrorsTime();
+                            gold -= Convert.ToInt32(item[1]);
+                            break;
+                        case "FireWall":
+                            if (Protected.FireWall())
+                            {
+                                iloscVirus -= (int)(iloscVirus * 0.8);
+                                gold -= Convert.ToInt32(item[1]);
+                            }
+                            break;
+                        case "Speed Updates":
+                            Protected.boostUpdateTime();
+                            gold -= Convert.ToInt32(item[1]);
+                            break;
+                    }
+                }
+            }
+            }
+
+        private void lista_Selected(object sender, RoutedEventArgs e)
+        {
+            shop();
+        }
+
         private void DodajRansomware()
         {
             iloscRansomware++;
@@ -151,22 +209,23 @@ namespace WpfApp2
         {
             ileRazyUpdate++;
             prog = rnd.Next(5, 15);
-            gold += rnd.Next(1, 5);
+            gold += rnd.Next(3, 5);
             ileZlota.Content = gold;
             iloscErrors -= (int)(iloscErrors * 0.8);
             iloscRansomware -= (int)(iloscRansomware * 0.8);
             iloscTrojan -= (int)(iloscTrojan * 0.8);
             iloscVirus -= (int)(iloscVirus * 0.8);
+
+            error.Content = iloscErrors;
+            ransomware.Content = iloscRansomware;
+            trojan.Content = iloscTrojan;
+            virus.Content = iloscVirus;
+
             if (iloscVirus < 0) iloscVirus = 0;
             if (iloscTrojan < 0) iloscTrojan = 0;
             if (iloscRansomware < 0) iloscRansomware = 0;
             if (iloscErrors < 0) iloscErrors = 0;
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var shop = new shop();
-            shop.Show();
-        }
     }
 }
+ 

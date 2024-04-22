@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\wpfapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|c:\\users\\janus\\desktop\\protapp\\protectyourself\\wpfapp2\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|c:\\users\\janus\\desktop\\protapp\\protectyourself\\wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|c:\\users\\janus\\desktop\\protapp\\protectyourself\\wpfapp2\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|c:\\users\\janus\\desktop\\protapp\\protectyourself\\wpfapp2\\gamereal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\gamereal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\wpfapp2\\gamereal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\gamereal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\wpfapp2\\script\\simulated\\protect\\boost\\protected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A200DD-8249-4C6F-B1D3-22AE775A9268}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\script\\simulated\\protect\\boost\\protected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +31,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp2\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp2\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T18:11:29.171Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\Game.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp2\\Game.xaml.cs",
-              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\Game.xaml.cs",
-              "RelativeToolTip": "WpfApp2\\Game.xaml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T17:19:04.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Game.xaml",
-              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\Game.xaml",
-              "RelativeDocumentMoniker": "WpfApp2\\Game.xaml",
-              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\Game.xaml",
-              "RelativeToolTip": "WpfApp2\\Game.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T10:29:24.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp2\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-11T18:10:01.145Z",
+              "WhenOpened": "2024-04-22T09:15:58.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameReal.xaml",
+              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\GameReal.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\GameReal.xaml",
+              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\GameReal.xaml",
+              "RelativeToolTip": "WpfApp2\\GameReal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-15T12:28:06.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Protected.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\script\\simulated\\protect\\boost\\Protected.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\script\\simulated\\protect\\boost\\Protected.cs",
+              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\script\\simulated\\protect\\boost\\Protected.cs",
+              "RelativeToolTip": "WpfApp2\\script\\simulated\\protect\\boost\\Protected.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:49:45.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameReal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\GameReal.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\GameReal.xaml.cs",
+              "ToolTip": "C:\\Users\\janus\\Desktop\\protApp\\ProtectYourself\\WpfApp2\\GameReal.xaml.cs",
+              "RelativeToolTip": "WpfApp2\\GameReal.xaml.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAIAwwL4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:28:32.605Z",
               "EditorCaption": ""
             }
           ]

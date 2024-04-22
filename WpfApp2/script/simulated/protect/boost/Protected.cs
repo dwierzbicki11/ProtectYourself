@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp2.script.simulated.protect.boost
 {
-    public class Protected
+    public struct Protected
     {
         static int min=0;
         static int max=3;
